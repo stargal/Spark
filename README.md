@@ -23,14 +23,16 @@ signin --> cloud
 
 Spark --> application[功能模块]
 application --> diary[记日记]
-diary --> addDiary[添加日记]
-diary --> reviewDiary[编辑日记]
-diary --> showDiary[查看日记]
+diary --> addDiary[添加]
+diary --> modifyDiary[编辑]
+diary --> showDiary[查看]
 
 application --> sparks[记灵感]
+sparks --> addSparks[添加]
+sparks --> modifySparks[编辑]
+sparks --> showSparks[查看]
 
 application --> calendarView[日历视图]
-
 
 ```
 
